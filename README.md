@@ -65,24 +65,3 @@ Requirements & Installation
 4. Install Firefox web browser.
 5. Open NetBeans IDE and import the `MedicalCentre` project as web project.
 6. Add *mysql-connector-java-5.1.6-bin.jar* in Libraries if not added before.
-
-**Known Issue:**
-
-Although you have installed and configured everyting properrly, you might have faced problem regarding database. In that case you may take help from `DBQuery.sql` file for database query (i.e., trigger, procedure, event etc.).
-
-A few dummy users are (available in the system):
-
-User Name  | Password | Uset Type
-------------- | ------------- | -----------
-doctor  | d | Doctor
-doctor2	| d | Doctor
-pharmacist |	p | Pharmacist
-md |	md1 | Medicine Distributor
-a-cse	| p | Patient (Employee)	
-b-cse	| p | Patient (Employee)
-2007331039 |	mokarrom | Patient (Student)
-2007331023 |	p | Patient (Student)	
-
-Reference
----------
-A detail technical report which explains different phases (e.g. requirement analysis, system design, architecture, coding, debugging and testing etc.) of software engineering, is avaialable in the `docs` directory. 
